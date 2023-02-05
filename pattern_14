@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int ir,ic,ik,n;
+  scanf("%d",&n);
+  for(ir=1;ir<=n;ir++)
+  {
+      for(ic=1;ic<=n-ir;ic++)
+      printf(" ");
+    for(ik=1;ik<=ir;ik++)
+      printf("%d",ik);
+       printf("\n");
+  }
+}
